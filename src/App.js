@@ -3,6 +3,7 @@ import './styles/App.scss';
 import data from './dummy-data/data';
 // import SimpleListItem from './components/simple-list-item';
 import SimpleList from './components/simple-list';
+import Badge from './components/badge';
 
 const employees = [
   {
@@ -38,6 +39,13 @@ function App() {
         <h1>Company name: {data.name}</h1>
         <p className="lead">Company moto: {data.moto}</p>
       </div>
+
+      <section className="content-section">
+        {/* Using the component and passing props */}
+        <Badge text="Admin" theme="orange" size="s" />
+        <Badge text="DevOps" />
+        <Badge text="Frontend" theme="blue" size="xl" />
+      </section>
 
       <section className="content-section">
 
@@ -99,7 +107,7 @@ function App() {
               return (
                 <li key={product.id} className="product-list-item">
                   <h2>{product.name}</h2>
-                  <img src={product.image} alt={product.name} className="product-list-item-image" />
+                  {/* <img src={product.image} alt={product.name} className="product-list-item-image" /> */}
                   <p className="product-list-item-description">{product.description}</p>
 
                   <p className="product-list-item-price product-list-item-price--old">{currencyFormatter.format(product.oldPirce)}</p>
