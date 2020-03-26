@@ -1,0 +1,79 @@
+.content-section {
+  padding: 60px 30px;
+}
+
+// hero 
+.hero {
+  padding: 60px 30px;
+  background-color: pink;
+}
+
+.lead {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.offices-list {
+  margin: 30px auto;
+}
+
+.offices-list li {
+  margin-bottom: 16px;
+}
+
+// Products
+
+.product-list-item {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 32px;
+  padding: 32px;
+}
+
+.product-list-item img {
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+
+.product-list-item-price {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.product-list-item-price {
+  margin-bottom: 8px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.product-list-item-price--old {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.product-list-item-stock-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0aca2b;
+}
+
+.product-list-item-stock-label--out {
+  color: gray;
+}
+
+// Offices
+.office-list-item {
+  border-bottom: 1px solid gray; 
+  margin-bottom: 32px;
+}
+
+.label {
+  margin-right: 8px;
+  font-size: 14px;
+  color: gray;
+}
+
+.key {
+
+}
